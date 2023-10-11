@@ -19,7 +19,7 @@ JavaScript étant le langage le plus utilisé dans le développement web, mais a
 Pour installer l'API, vous pouvez utiliser npm comme suit :
 
 ```sh
-npm install https://github.com/Kierha/calendar_generator
+npm install git@github.com:Kierha/calendar_service_web.git
 ```
 
 Ou télécharger le fichier JS et l'inclure dans votre projet.
@@ -148,7 +148,7 @@ Exemple de code illustrant comment l'application utilise l'API.
 - Dans le fichier src/index.js :
 
 ```javascript
-import MyCalendar from "calendar_serviceweb";
+import MyCalendar from "calendar_service_web";
 
 document.addEventListener("DOMContentLoaded", () => {
   const myCal = new MyCalendar("monCalendrier", {
