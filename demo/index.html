@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo MyCalendar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="monCalendrier"></div>
+    <script type="module">
+        import MyCalendar from '../src/calendar.js';
+        const myCal = new MyCalendar('monCalendrier', {
+                events: {
+                    '2023-10-31': {
+                        title: 'Halloween',
+                        description: 'Une célébration festive',
+                    },
+                    '2023-10-29': {
+                        title: 'Anniversaire',
+                        description: 'Anniversaire de ma soeur',
+                    }
+                }
+            });
+    </script>
+</body>
+
+</html>

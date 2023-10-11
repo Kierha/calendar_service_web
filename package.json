@@ -1,0 +1,26 @@
+{
+  "name": "calendar_serviceweb",
+  "version": "1.0.0",
+  "description": "Calendar_serviceweb est une API en JavaScript Natif simple qui permet de créer un calendrier interactif avec la possibilité de marquer certains jours avec des événements spécifiques à indiquer depuis les options de configuration.",
+  "main": "src/calendar.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "live-server"
+  },
+  "author": "Thomas D",
+  "license": "ISC",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Kierha/calendar_service_web.git"
+  },
+  "keywords": [
+    "calendar",
+    "javascript",
+    "library"
+  ],
+  "bugs": {
+    "url": "https://github.com/Kierha/calendar_service_web/issues"
+  },
+  "homepage": "https://github.com/Kierha/calendar_service_web#readme"
+}
