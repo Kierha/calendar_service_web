@@ -86,7 +86,7 @@ L'application de démonstration illustre comment utiliser Calendar_serviceweb po
 
 ## Installation
 
-Clonez le dépôt et installez les dépendances avec npm :
+Clonez le [dépôt](https://github.com/Kierha/projet_test_calendar) de test et installez les dépendances avec npm :
 
 Ce repository contient :
 
@@ -96,7 +96,7 @@ Ce repository contient :
 - Un fichier package.json
 
 ```sh
-git clone <repository_url>
+git clone git@github.com:Kierha/projet_test_calendar.git
 cd repository_name
 npm install
 ```
