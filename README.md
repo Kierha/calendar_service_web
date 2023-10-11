@@ -1,4 +1,4 @@
-# MyCalendar API Documentation
+# Calendar_service_web API Documentation
 
 ## Introduction
 
