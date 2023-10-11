@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Calendar_serviceweb est une API en JavaScript Natif simple qui permet de créer un calendrier interactif avec la possibilité de marquer certains jours avec des événements spécifiques à indiquer depuis les options de configuration.
+Calendar_service_web est une API en JavaScript Natif simple qui permet de créer un calendrier interactif avec la possibilité de marquer certains jours avec des événements spécifiques à indiquer depuis les options de configuration.
 
 ## Choix de conception et explications
 
@@ -29,7 +29,7 @@ Ou télécharger le fichier JS et l'inclure dans votre projet.
 Voici un exemple simple d'utilisation de l'API Calendar :
 
 ```javascript
-import MyCalendar from "calendar_serviceweb";
+import MyCalendar from "calendar_service_web";
 
 const myCal = new MyCalendar("targetElementId", {
   events: {
@@ -82,7 +82,7 @@ Une classe CSS personnalisée appliquée aux jours ayant des événements (surch
 
 ## Introduction
 
-L'application de démonstration illustre comment utiliser Calendar_serviceweb pour créer un calendrier simple et interactif sur un site web.
+L'application de démonstration illustre comment utiliser Calendar_service_web pour créer un calendrier simple et interactif sur un site web.
 
 ## Installation
 
