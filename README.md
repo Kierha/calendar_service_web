@@ -22,7 +22,17 @@ Pour installer l'API, vous pouvez utiliser npm comme suit :
 npm install git@github.com:Kierha/calendar_service_web.git
 ```
 
-Ou télécharger le fichier JS et l'inclure dans votre projet.
+Ou télécharger le fichier JS et l'inclure dans votre projet. <br>
+Il est également possible d'éxécuter le Dockerfile si vous souhaitez tester dans un environnement Docker.
+
+```sh
+docker build -t calendar_service_web 
+```
+Puis lancer le container :
+
+```sh
+docker run -d -p 8080:80 calendar_service_web
+```
 
 ## Utilisation
 
